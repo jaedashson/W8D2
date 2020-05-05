@@ -43,7 +43,9 @@ class ControllerBase
 
   # use ERB and binding to evaluate templates
   # pass the rendered html to render_content
+  # Equivalent to Rails's render :template_name
   def render(template_name)
+    # self.class.
   end
 
   # method exposing a `Session` object
